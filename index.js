@@ -42,7 +42,7 @@ const questions = [{
     type: 'list',
     name: 'license',
     message: 'Select a license you wish to use for your application.',
-    choices: ['GNU GPLv3', 'GNU AGPLv3', 'GNU LGPLv3', 'MIT License', 'Apache License 2.0', 'The Unlicense'],
+    choices: ['GNU GPLv3', 'MIT License', 'Apache License 2.0', 'The Unlicense'],
     default: 'MIT License'
 },
 {

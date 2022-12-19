@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cujion/node.js-Professional-README-generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Cujion/node.js-Professional-README-generator/issues"
+  },
+  "homepage": "https://github.com/Cujion/node.js-Professional-README-generator#readme"
 }

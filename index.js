@@ -21,7 +21,7 @@ const questions = [{
 {
     type: 'input',
     name: 'usage',
-    message: 'Short descripted explanation on how to use your application.'
+    message: 'Short descriptive explanation on how to use your application.'
 },
 {
     type: 'input',
@@ -75,7 +75,17 @@ function writeToFile(fileName, data) {
 
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+    .prompt(questions)
+    .then((response) => {
+        console.log(response);
+        writeToFile(response.title, response);
+    })
+    .catch((err) => {
+        console.log(err);
+    })
+}
 
 // Function call to initialize app
 init();

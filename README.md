@@ -1,6 +1,6 @@
 # node.js-Professional-README-generator
 
-[Link to my project](https://cujion.github.io/node.js-Professional-README-generator/)
+[Link to my profile](https://github.com/cujion)
 
 ## Table of Contents
 - [Description](#description)

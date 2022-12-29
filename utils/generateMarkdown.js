@@ -71,7 +71,7 @@ function generateMarkdown(data) {
   ## Questions
   * For any more questions, reach me at:
   * [Github](https://github.com/${data.github})
-  * [email](${data.email})
+  * [email](http://${data.email})
 `};
 
 module.exports = generateMarkdown;

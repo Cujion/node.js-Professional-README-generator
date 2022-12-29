@@ -36,7 +36,7 @@ const questions = [{
 },
 {
     name: 'email',
-    message: 'Write is your Email?'
+    message: 'What is your Email?'
 }
 ];
 
